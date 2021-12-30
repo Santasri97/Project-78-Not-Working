@@ -10,11 +10,11 @@ var names = ["Fmaily Book",
   "Rocky Singh",
   "Alia Singh",
   "Soni Singh"];
-
+ var i = 0;
 function update() {
-  var i = 0;
+ 
   i++;
-  if (i == 9) {
+  if (i > 5) {
     i = 0;
   }
   var updatedImage = [images];
